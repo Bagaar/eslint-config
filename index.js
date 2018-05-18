@@ -6,6 +6,10 @@ module.exports = {
     }],
     'lines-around-comment': ['error', {
       'afterBlockComment': true,
+      'allowArrayStart': true,
+      'allowBlockStart': true,
+      'allowClassStart': true,
+      'allowObjectStart': true,
     }],
     'no-multiple-empty-lines': ['error', {
       'max': 1,
