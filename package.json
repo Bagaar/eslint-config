@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-bgr",
+  "version": "0.1.0",
+  "description": "EsLint config for Bagaar applications.",
+  "keywords": [
+    "bagaar",
+    "config",
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "MIT",
+  "author": "Bagaar",
+  "repository": "https://git.bagaar.be/shelf/front-end/eslint-config-bgr",
+  "main": "index.js"
+}
