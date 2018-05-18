@@ -6,14 +6,13 @@ module.exports = {
     }],
     'lines-around-comment': ['error', {
       'afterBlockComment': true,
-      'beforeBlockComment': true,
     }],
     'no-multiple-empty-lines': ['error', {
       'max': 1,
     }],
     'no-trailing-spaces': 'error',
     'quotes': ['error', 'single', {
-      'avoidEscape': true,
+      'allowTemplateLiterals': true,
     }],
     'semi': ['error', 'always'],
     'space-before-function-paren': ['error', {
