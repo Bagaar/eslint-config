@@ -2,7 +2,7 @@
 
 ![Bagaar Logo](https://bagaar.be/hubfs/logo-bagaar-black.svg)
 
-**@bagaar/eslint-config is built and maintained by [Bagaar](http://bagaar.be).**
+**`@bagaar/eslint-config` is built and maintained by [Bagaar](http://bagaar.be).**
 
 EsLint config for Bagaar projects.
 
