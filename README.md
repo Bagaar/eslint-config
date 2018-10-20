@@ -11,13 +11,13 @@ EsLint config for Bagaar projects.
 ### npm
 
 ```shell
-$ npm install @bagaar/eslint-config --save-dev
+npm install @bagaar/eslint-config --save-dev
 ```
 
 ### yarn
 
 ```shell
-$ yarn add @bagaar/eslint-config --dev
+yarn add @bagaar/eslint-config --dev
 ```
 
 ## Usage
