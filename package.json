@@ -14,9 +14,11 @@
   "repository": "https://github.com/Bagaar/eslint-config",
   "main": "lib/index.js",
   "scripts": {
-    "test": "eslint tests"
+    "test": "eslint tests",
+    "release": "standard-version"
   },
   "devDependencies": {
-    "eslint": "^5.12.1"
+    "eslint": "^5.12.1",
+    "standard-version": "^4.4.0"
   }
 }
