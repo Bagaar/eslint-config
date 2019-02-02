@@ -2,21 +2,27 @@
 
 ![Bagaar Logo](https://bagaar.be/hubfs/logo-bagaar-black.svg)
 
-**`@bagaar/eslint-config` is built and maintained by [Bagaar](http://bagaar.be).**
+**`@bagaar/eslint-config` is built and maintained by [Bagaar](https://bagaar.be).**
 
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![NPM Version](https://badge.fury.io/js/%40bagaar%2Feslint-config.svg)](https://badge.fury.io/js/%40bagaar%2Feslint-config) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 EsLint config for Bagaar projects.
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
 ## Installation
 
-### npm
+### NPM
 
 ```shell
 npm install @bagaar/eslint-config --save-dev
 ```
 
-### yarn
+### Yarn
 
 ```shell
 yarn add @bagaar/eslint-config --dev
@@ -29,9 +35,12 @@ Add `@bagaar/eslint-config` to the `extends` array of your `.eslintrc.js` file.
 ```javascript
 // .eslintrc.js
 
-extends: [
-  '@bagaar/eslint-config',
-],
+module.exports = {
+  extends: [
+    'eslint:recommended',
+    '@bagaar/eslint-config'
+  ]
+};
 ```
 
 ## License
