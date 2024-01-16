@@ -28,19 +28,51 @@ npm install @bagaar/eslint-config --save-dev
 yarn add @bagaar/eslint-config --dev
 ```
 
+### pnpm
+
+```shell
+pnpm add @bagaar/eslint-config --save-dev
+```
+
 ## Usage
 
-Add `@bagaar/eslint-config` to the `extends` array of your `.eslintrc.js` file.
+Extend your local config with the default export of `@bagaar/eslint-config`:.
 
 ```javascript
 // .eslintrc.js
 
+const config = require('@bagaar/eslint-config');
+
 module.exports = {
-  extends: [
-    'eslint:recommended',
-    '@bagaar/eslint-config'
+  ...config,
+  root: true,
+};
+
+```
+
+The `config` value here is just a plain JS object so it can be customised at will. The config will contain different rules based on which dependencies are present, all peerdependencies are therefore optional.
+
+If you want to extend instead of override a property, be sure to spread the original values as well, for example:
+
+```javascript
+// .eslintrc.js
+
+const config = require('@bagaar/eslint-config');
+
+module.exports = {
+  ...config,
+  root: true,
+  overrides: [
+    ...config.overrides,
+    {
+      files: ['./index.js'],
+      rules: {
+        "no-console": 'off',
+      }
+    },
   ]
 };
+
 ```
 
 ## License
