@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.2](https://github.com/Bagaar/eslint-config/compare/v0.6.1...v0.6.2) (2024-02-06)
+
+
+### Features
+
+* add option to print out generated config using env variable ([1e6938d](https://github.com/Bagaar/eslint-config/commit/1e6938d6d1974d7580efd5332ffebb4c21cf3cce))
+* add recommended rules to typescript config ([1672c5e](https://github.com/Bagaar/eslint-config/commit/1672c5ef6edac41bdd6fafa7b83a9b20dd9dee05))
+
 ### [0.6.1](https://github.com/Bagaar/eslint-config/compare/v0.6.0...v0.6.1) (2024-01-16)
 
 
