@@ -15,6 +15,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "eslint tests",
+    "test:debug": "DEBUG=true eslint tests",
     "lint": "eslint . --cache",
     "format": "prettier --check lib",
     "format:fix": "prettier --write lib",

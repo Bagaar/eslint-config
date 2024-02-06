@@ -75,6 +75,19 @@ module.exports = {
 
 ```
 
+To print out the generated config to the console, set the env var `DEBUG=true`. e.g.:
+
+```json
+// package.json
+...
+  "scripts": {
+    "lint": "eslint . --cache",
+    "lint:debug": "DEBUG=true eslint .",
+  },
+...
+
+```
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE.md).
