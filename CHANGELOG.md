@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.3](https://github.com/Bagaar/eslint-config/compare/v0.6.2...v0.6.3) (2024-02-06)
+
+
+### Features
+
+* update eslint-plugin-ember version ([16a2270](https://github.com/Bagaar/eslint-config/commit/16a2270ad13e6be21f79f3e80d49bccfe8d0cb08))
+
 ### [0.6.2](https://github.com/Bagaar/eslint-config/compare/v0.6.1...v0.6.2) (2024-02-06)
 
 
