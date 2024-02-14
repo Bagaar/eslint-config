@@ -1,6 +1,6 @@
 {
   "name": "@bagaar/eslint-config",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "EsLint config for Bagaar projects.",
   "keywords": [
     "bagaar",
