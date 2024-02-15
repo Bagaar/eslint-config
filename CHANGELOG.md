@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.5](https://github.com/Bagaar/eslint-config/compare/v0.6.4...v0.6.5) (2024-02-15)
+
+
+### Bug Fixes
+
+* also ignore typescript unused vars rule in interface files ([a342ad2](https://github.com/Bagaar/eslint-config/commit/a342ad200e612b9c5895f37cbf59b70f037adf5e))
+
 ### [0.6.4](https://github.com/Bagaar/eslint-config/compare/v0.6.3...v0.6.4) (2024-02-14)
 
 ### [0.6.3](https://github.com/Bagaar/eslint-config/compare/v0.6.2...v0.6.3) (2024-02-06)
