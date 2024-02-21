@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.7](https://github.com/Bagaar/eslint-config/compare/v0.6.6...v0.6.7) (2024-02-21)
+
+
+### Bug Fixes
+
+* dont throw error when graphql schema is not present ([9a141d4](https://github.com/Bagaar/eslint-config/commit/9a141d448324f20703980f4e36abf48ffdaeb34c))
+
 ### [0.6.6](https://github.com/Bagaar/eslint-config/compare/v0.6.5...v0.6.6) (2024-02-21)
 
 
