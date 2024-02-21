@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.6](https://github.com/Bagaar/eslint-config/compare/v0.6.5...v0.6.6) (2024-02-21)
+
+
+### Features
+
+* split graphql files in separate config and check for existence of schema ([6195b0a](https://github.com/Bagaar/eslint-config/commit/6195b0a905016ba6f1b913f509437abe9af46524))
+
 ### [0.6.5](https://github.com/Bagaar/eslint-config/compare/v0.6.4...v0.6.5) (2024-02-15)
 
 
