@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.10](https://github.com/Bagaar/eslint-config/compare/v0.6.9...v0.6.10) (2024-03-04)
+
+
+### Bug Fixes
+
+* remove early return because then no config is emitted ([c2c72f8](https://github.com/Bagaar/eslint-config/commit/c2c72f8425022a3465b0a5d40c724343532dab1a))
+
 ### [0.6.9](https://github.com/Bagaar/eslint-config/compare/v0.6.8...v0.6.9) (2024-03-04)
 
 
