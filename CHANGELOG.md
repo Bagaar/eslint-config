@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.9](https://github.com/Bagaar/eslint-config/compare/v0.6.8...v0.6.9) (2024-03-04)
+
+
+### Bug Fixes
+
+* early return when no graphql config is found to avoid error when reading this file ([eff65c4](https://github.com/Bagaar/eslint-config/commit/eff65c4df4e71f951f3198e60e306a8cbc312623))
+
 ### [0.6.8](https://github.com/Bagaar/eslint-config/compare/v0.6.7...v0.6.8) (2024-02-29)
 
 
