@@ -13,6 +13,9 @@
   "author": "Bagaar",
   "repository": "https://github.com/Bagaar/eslint-config",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "eslint tests",
     "test:debug": "DEBUG=true eslint tests",
