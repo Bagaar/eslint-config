@@ -9,29 +9,29 @@
     "eslint",
     "eslintconfig"
   ],
+  "repository": "https://github.com/Bagaar/eslint-config",
   "license": "MIT",
   "author": "Bagaar",
-  "repository": "https://github.com/Bagaar/eslint-config",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
   "scripts": {
-    "test": "eslint tests",
-    "test:debug": "DEBUG=true eslint tests",
-    "lint": "eslint . --cache",
     "format": "prettier --check lib",
     "format:fix": "prettier --write lib",
+    "lint": "eslint . --cache",
+    "prepare": "husky install",
     "release": "standard-version",
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "*.js": "prettier --write"
+    "test": "eslint tests",
+    "test:debug": "DEBUG=true eslint tests"
   },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "lint-staged": {
+    "*.js": "prettier --write"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.23.3",
@@ -42,14 +42,15 @@
     "husky": "^8.0.3",
     "lint-staged": "^15.1.0",
     "prettier": "^3.1.0",
+    "release-plan": "^0.8.0",
     "standard-version": "^9.5.0"
   },
   "peerDependencies": {
     "@babel/eslint-parser": "^7.22.5",
     "@babel/plugin-proposal-decorators": "^7.22.3",
     "@graphql-eslint/eslint-plugin": "^3.19.1",
-    "@typescript-eslint/parser": "^7.0.1",
     "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
     "eslint": "^8.56.0",
     "eslint-plugin-ember": "^12.0.0",
     "eslint-plugin-n": "^16.3.0",
@@ -66,10 +67,10 @@
     "@graphql-eslint/eslint-plugin": {
       "optional": true
     },
-    "@typescript-eslint/parser": {
+    "@typescript-eslint/eslint-plugin": {
       "optional": true
     },
-    "@typescript-eslint/eslint-plugin": {
+    "@typescript-eslint/parser": {
       "optional": true
     },
     "eslint-plugin-ember": {
